@@ -87,10 +87,46 @@
 }
 
 .wrapperdata-gallery {
+    flex: 1;
     display: flex;
     padding-top: 2rem;
-    justify-content: center;
     align-items: center;
+    width: 75%;
+}
+
+.image-gallery {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-gallery img{
+    min-width: 250px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 30%;
+}
+
+.infotext-gallery {
+    flex: 2 1;
+    max-width: 250px;
+}
+  
+.infotext-gallery h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-block: 1rem;
+}
+  
+.infotext-gallery h2 {
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 1rem;
+}
+  
+.infotext-gallery p {
+    font-weight: 500;
 }
   
 .options {
@@ -151,26 +187,6 @@
     font-weight: bold;
     font-size: 3rem;
     text-align: center;
-}
-
-.infotext-gallery {
-    padding-left: 3rem;
-}
-  
-.infotext-gallery h1 {
-    font-weight: bold;
-    font-size: xx-large;
-    padding-bottom: 1rem;
-}
-  
-.infotext-gallery h2 {
-    font-weight: bold;
-    font-size: larger;
-    padding-bottom: 1rem;
-}
-  
-.infotext-gallery p {
-    font-weight: 500;
 }
 
 .user-image-container {
@@ -299,6 +315,19 @@
     border: none;
     margin: 60px auto;
     padding: 12px;
+}
+
+.sosmed-logo {
+    display: flex;
+    margin-top: 5%;
+
+}
+
+.sosmed-items {
+    width: 30%;
+    margin: 10px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main {
